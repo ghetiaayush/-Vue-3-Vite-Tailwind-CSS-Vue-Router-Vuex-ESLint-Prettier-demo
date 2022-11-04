@@ -28,7 +28,8 @@ npm install vue-router@4
 ## Install Vuex
 npm install vuex@next --save
 
-## .eslintrc.js:
+## put the below code in the mention file at the root of your document 
+1) .eslintrc.js:
 module.exports = {
 extends: [
   'plugin:vue/vue3-essential',
@@ -40,7 +41,7 @@ rules: {
 },
 }
 
-## .prettierrc.js:
+2) .prettierrc.js:
 module.exports = {
     semi: false,
     tabWidth: 4,
